@@ -1,0 +1,231 @@
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+
+.column {
+  width: 500px;
+  float: left;
+}
+header {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  letter-spacing: 30px;
+  background-color: skyblue;
+  color: white;
+  font-size: 52px;
+  font-family: 'Poiret One', cursive;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  background-color: skyblue;
+}
+header a:hover {
+  background-color: skyblue;
+}
+h1 {
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  margin-top: 30px;
+}
+nav {
+  margin: 0 auto;
+  width: 1000px;
+}
+nav a {
+  text-align: center;
+  display: inline-block;
+  width: 119.82px;
+  font-size: 22px;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding-right: 38.5px;
+  padding-left: 38.5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+nav a[href="index.html"] {
+  background-color: #575D90;
+}
+a[href="resume.html"] {
+  background-color: #B93B8F;
+}
+a[href="internships.html"] {
+  background-color: #B892C0;
+}
+a[href="writing.html"]{
+  background-color: #F88158;
+}
+a[href="contact.html"] {
+  background-color: #f36886;
+}
+nav a:hover {
+  background-color: skyblue;
+}
+#columnWrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+}
+#indexImage img {
+  margin-top: 40px;
+  border-style: solid;
+  border-color: skyblue;
+  border-width: 7px;
+  padding: 5px;
+
+}
+#bodyText {
+  text-align: left;
+}
+#bodyText p {
+  text-indent: 2em;
+}
+#bodyText a {
+  color: #575D90;
+  text-decoration: none;
+}
+
+
+
+
+#resumeBody {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 20px;
+}
+#educationBody {
+  margin-top: 40px;
+  border-style: double;
+  border-color: #B93B8F;
+  border-width: 15px;
+  padding: 10px;
+
+}
+#resumeBody h2 {
+  margin-top: 0;
+  font-size: 40px;
+  width: 1000px;
+
+}
+#resumeBody h3 {
+  margin-bottom: 0;
+  font-size: 25px;
+}
+ul {
+  list-style: circle;
+}
+li {
+  padding: 5px;
+}
+
+
+
+#internshipsBody {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#internshipsBody h2 {
+  margin-left: 350px;
+}
+#internshipsBody h3 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+#theHawk {
+  margin-top: 30px;
+  width: 965px;
+  background-color: #B892C0;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: 10px double white;
+}
+#prospect {
+  width: 965px;
+  margin-top: 20px;
+  background-color: #F88158;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: 10px double white;
+}
+#museum {
+  width: 965px;
+  margin-top: 20px;
+  background-color: #575D90;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: 10px double white;
+  margin-bottom: 30px;
+}
+#internshipsBody a {
+  color: white;
+}
+#internshipsBody h4 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+
+
+
+#writingBody {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#writingBody h2 {
+  font-size: 40px;
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  border-bottom-color: #F88158;
+}
+#writingBody a {
+  text-decoration: none;
+  color: #575D90;
+}
+
+
+
+
+#contactBody {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#contactBody h2 {
+  font-size: 30px;
+  border-bottom-style: solid;
+  border-bottom-color: #f36886;
+  border-bottom-width: 7px;
+  margin-bottom: 0;
+}
+#email {
+  text-align: right;
+  font-size: 30px;
+
+}
+#twitter {
+  text-align: right;
+  font-size: 30px;
+}
+#contactBody a {
+  color: black;
+}
