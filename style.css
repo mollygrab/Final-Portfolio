@@ -87,6 +87,7 @@ nav a:hover {
 }
 #bodyText {
   text-align: left;
+  margin-bottom: 70px;
 }
 #bodyText p {
   text-indent: 2em;
@@ -104,14 +105,28 @@ nav a:hover {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 20px;
+  margin-bottom: 70px;
 }
 #educationBody {
-  margin-top: 40px;
-  border-style: double;
   border-color: #B93B8F;
+  border-style: double;
   border-width: 15px;
   padding: 10px;
-
+  margin-top: 20px;
+}
+#experienceBody {
+  border-style: double;
+  border-color: #B892C0;
+  border-width: 15px;
+  padding: 10px;
+  margin-top: 20px;
+}
+#activitiesBody {
+  border-style: double;
+  border-color: #575D90;
+  border-width: 15px;
+  padding: 10px;
+  margin-top: 20px;
 }
 #resumeBody h2 {
   margin-top: 0;
@@ -136,6 +151,7 @@ li {
   width: 1000px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 70px;
 }
 #internshipsBody h2 {
   margin-left: 350px;
@@ -173,7 +189,7 @@ li {
   padding-bottom: 10px;
   color: white;
   border: 10px double white;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #internshipsBody a {
   color: white;
@@ -187,15 +203,23 @@ li {
 
 
 #writingBody {
-  width: 1000px;
   margin-right: auto;
   margin-left: auto;
+  width: 1010px;
+  margin-bottom: 70px;
 }
 #writingBody h2 {
   font-size: 40px;
-  border-bottom-width: 7px;
-  border-bottom-style: solid;
-  border-bottom-color: #F88158;
+  background-color: #F88158;
+  border: 15px double white;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#writingBody p {
+  text-indent: 2em;
 }
 #writingBody a {
   text-decoration: none;
@@ -211,21 +235,18 @@ li {
   margin-left: auto;
 }
 #contactBody h2 {
-  font-size: 30px;
-  border-bottom-style: solid;
-  border-bottom-color: #f36886;
-  border-bottom-width: 7px;
-  margin-bottom: 0;
-}
-#email {
-  text-align: right;
-  font-size: 30px;
-
-}
-#twitter {
-  text-align: right;
-  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+  font-size: 40px;
+  color: white;
+  background-color:#f36886;
+  border: 10px white double;
+  padding: 10px;
 }
 #contactBody a {
-  color: black;
+  color: white;
+  text-decoration: none;
 }
